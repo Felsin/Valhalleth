@@ -255,6 +255,7 @@ status = api.update_status(status=tweet)
 print(str(tweet))
 
 print('script completed at..' + str(now))
-with open('script_log.txt','r+') as file:
-    for line in file:
-            file.write('script completed at..' + str(now))
+with open('script_log.txt', 'a') as file_object:
+    file_object.write('script completed at..' + str(now))
+
+
