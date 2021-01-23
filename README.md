@@ -5,7 +5,7 @@ Visit Valhall.eth.link for an example.
 
 This site requires a index.html, styles.css, ipfs_hashes.txt, ipfn_hashes.txt, pinata_hashes.txt, script_log.txt, whatever images or robot.txt you include, and the script itself. 
 
-ipfs_hashes.txt, pinata_hashes.txt and ipfn_hashes.txt need atleast one character in them the first time the script is ran since it attempts to remove the old pinned data.
+ipfs_hashes.txt, pinata_hashes.txt and ipfn_hashes.txt need atleast one character in them the first time the script is ran since it attempts to remove the old pinned data. Any empty lines at the bottom of these files will also cause errors (just a newbie here..improvements welcomed!)
 
 The structure of the index.html must have the data for your base content section on their own separate line with no formatting before or after the text. The script must be adapted to match the data in your file.
 
