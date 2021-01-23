@@ -1,5 +1,5 @@
 # Valhalleth
-Python script to autorefresh IPFS/IPFN hosted ENS site with a dynamic website showing a progress counter for Eth price reaching $10,000
+This is a Python script to autorefresh IPFS/IPFN hosted ENS site with a dynamic website showing a progress counter for Eth price reaching $10,000
 
 Visit Valhall.eth.link for an example.
 
@@ -9,12 +9,17 @@ The structure of the index.html must have the data for your base content section
 
 This data from the index.html must be on its own line and the script must be adapted to any changes made to this main content section:
 
-ETH Price / $10,000 </h2><div><div><strong class ="content-bar">
+"ETH Price / $10,000 </h2><div><div><strong class ="content-bar">
 Progress:</strong class ="content-bar">
 [############----------------------------------------------------------------------------------------]12% <br><strong><br><br>
 Current Price: </strong>$1222.66 <br><strong>
 Last Updated: </strong>2021-01-22 19:01:51.008584<br><strong>
-Highest Price Achieved: </strong>$1438.12
+Highest Price Achieved: </strong>$1438.12"
+  
+You must enter missing variables into the script including your twitter API keys, pinata API keys, and coingecko API keys.
+
+Have fun learning!
+@felblob
 
 
 
