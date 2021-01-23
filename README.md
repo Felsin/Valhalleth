@@ -3,7 +3,7 @@ This is a Python script to autorefresh IPFS/IPFN hosted ENS site with a dynamic 
 
 Visit Valhall.eth.link for an example.
 
-This site requires a index.html, styles.css and the script itself. 
+This site requires a index.html, styles.css, ipfs_hashes.txt, ipfn_hashes.txt, pinata_hashes.txt, script_log.txt, whatever images or robot.txt you include, and the script itself. 
 
 The structure of the index.html must have the data for your base content section on their own separate line with no formatting before or after the text. The script must be adapted to match the data in your file.
 
